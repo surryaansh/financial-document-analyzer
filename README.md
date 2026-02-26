@@ -51,9 +51,7 @@ This reduced cross-contamination between reasoning steps and improved reliabilit
 
 ### 2️⃣ Implemented RAG with FAISS (Facebook AI Similarity Search)
 
-This assignment wasn't just to debug, it was to harden it for reliability.
-
-The original system relied entirely on the LLM’s internal knowledge.
+The original system was not token-optimised and relied entirely on the LLM’s internal knowledge.
 
 Now the system uses the OpenAI APIs for cost-efficient, structured agent reasoning. (integrated via my existing OpenAI setup)
 
