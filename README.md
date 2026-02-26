@@ -49,7 +49,7 @@ This reduced cross-contamination between reasoning steps and improved reliabilit
 
 ---
 
-### 2️⃣ Implemented RAG with FAISS (Facebook AI Similarity Search)
+### 2️⃣ Implemented RAG with FAISS
 
 This assignment wasn't just to debug, it was to harden it for reliability.
 
