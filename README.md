@@ -49,11 +49,11 @@ This reduced cross-contamination between reasoning steps and improved reliabilit
 
 ---
 
-### 2️⃣ Implemented RAG with FAISS
+### 2️⃣ Implemented RAG with FAISS (Facebook AI Similarity Search)
 
 The original system relied entirely on the LLM’s internal knowledge.
 
-The system uses the OpenAI APIs for cost-efficient, structured agent reasoning. (integrated via my existing OpenAI setup)
+Now the system uses the OpenAI APIs for cost-efficient, structured agent reasoning. (integrated via my existing OpenAI setup)
 
 I implemented Retrieval-Augmented Generation (RAG):
 
@@ -65,9 +65,9 @@ I implemented Retrieval-Augmented Generation (RAG):
 
 **Why?**
 
-Financial analysis must be document-grounded. Fabricating numbers is unacceptable.
+Financial analysis must be document-grounded. Proper token usage is required and fabricating numbers is unacceptable.
 
-Increasing k from 4 → 6 improved recall (e.g., net income extraction) without increasing hallucination.
+Increasing k from 4 → 6 improved recall without increasing hallucination.
 
 ---
 
