@@ -13,7 +13,7 @@ The final system is grounded, structured, and significantly more stable.
 
 ## What Was Broken
 
-The original code had both deterministic bugs and prompt-level design flaws, including::
+The original code had both deterministic bugs and prompt-level design flaws, including:
 
 *   Agents instructed to “make up” financial advice
 *   Document verifier approving everything
@@ -51,7 +51,7 @@ This reduced cross-contamination between reasoning steps and improved reliabilit
 
 ### 2️⃣ Implemented RAG with FAISS (Facebook AI Similarity Search)
 
-This assignment wasn't just to debug, it was to harden it too.
+This assignment wasn't just to debug, it was to harden it for reliability.
 
 The original system relied entirely on the LLM’s internal knowledge.
 
